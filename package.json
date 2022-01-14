@@ -1,0 +1,20 @@
+{
+  "name": "js-checkio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.8",
+    "nodemon": "^2.0.15"
+  }
+}
