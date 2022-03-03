@@ -7,6 +7,7 @@ export class AllUpperII {
 
     solution() {
 
-        return this.input.match(/^[A-Z+0-9\s]*$/);
+        return (this.input.trim().match(/[A-Z]+/g) || [''])[0].length > 0
+            && (this.input.trim().match(/[a-z]+/g) || [''])[0].length < 1;
     }
 }
